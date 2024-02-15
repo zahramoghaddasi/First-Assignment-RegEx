@@ -7,7 +7,7 @@ public class Exercise3 {
 
     /*
     implement the method below so that it extracts a URL from a String
-    i will write the basics for this one method, you will have to implement the other two methods from scratch
+    I will write the basics for this one method, you will have to implement the other two methods from scratch
     */
 
     public static String extractURL(String text) {
@@ -29,7 +29,7 @@ public class Exercise3 {
      */
 
     public static boolean validateEmail(String email) {
-
+        return false;
     }
 
     /*
@@ -37,6 +37,18 @@ public class Exercise3 {
     */
 
     public static List<String> findWordsWithRepeatLetters(String input) {
+        List<String> wordsWithRepeatLetters = new ArrayList<>();
+        return wordsWithRepeatLetters;
+    }
 
+    /*
+    Bonus Problem ;)
+    implement the method below so that it returns a list of words that are repeated twice accidentally in a string
+    for example: "appleapple orange pearpear pineapple" -> ["appleapple", "pearpear"]
+    */
+
+    public static List<String> findReapetdWords(String input) {
+        List<String> repeatedWords = new ArrayList<>();
+        return repeatedWords;
     }
 }
