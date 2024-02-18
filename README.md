@@ -4,7 +4,7 @@ Welcome to your third assignment in the Advanced Programming course! In this ass
 
 ## Getting Started 🚀
 
-To get started with this assignment, you need to clone the repository provided. The repository contains the problem statements, source files, and unit tests.
+To get started with this assignment, you need to Fork this repository and clone the fork to your local machine. The repository contains the problem statements, source files, and unit tests.
 
 ## Prerequisites ✅
 
