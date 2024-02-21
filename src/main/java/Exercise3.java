@@ -11,7 +11,7 @@ public class Exercise3 {
     */
 
     public static String extractURL(String text) {
-        String regex = "write your regex here";
+        String regex = "write your regex pattern here!";  // TODO
 
         Pattern pattern = Pattern.compile(regex);
         Matcher matcher = pattern.matcher(text);
@@ -29,6 +29,7 @@ public class Exercise3 {
      */
 
     public static boolean validateEmail(String email) {
+        // TODO
         return false;
     }
 
@@ -39,6 +40,7 @@ public class Exercise3 {
     public static List<String> findWordsWithRepeatLetters(String input) {
         List<String> wordsWithRepeatLetters = new ArrayList<>();
         return wordsWithRepeatLetters;
+        // TODO
     }
 
     /*
@@ -50,5 +52,10 @@ public class Exercise3 {
     public static List<String> findReapetdWords(String input) {
         List<String> repeatedWords = new ArrayList<>();
         return repeatedWords;
+        // TODO
+    }
+
+    public static void main(String[] args) {
+        // test your code here!
     }
 }
