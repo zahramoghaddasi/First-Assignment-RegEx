@@ -42,9 +42,14 @@ public class Exercise3 {
     */
 
     public static List<String> findWordsWithRepeatLetters(String input) {
-        List<String> wordsWithRepeatLetters = new ArrayList<>();
-        return wordsWithRepeatLetters;
-        // TODO
+        List<String> repeatedWords = new ArrayList<>();
+        String regex = "\\w*(\\w)\\w*\\1\\w*";
+        Pattern pattern = Pattern.compile(regex);
+        Matcher matcher = pattern.matcher(input);
+        while(matcher.find()){
+            repeatedWords.add(matcher.group());
+        }
+        return repeatedWords;
     }
 
     /*
