@@ -1,11 +1,9 @@
 # Third Assignment RegEx 📚
 <div align="center">
-<img src="Cross.png" width="50%">
+<img src="nice.png" width="50%">
 
-error:
-test 3 all parts
 
-Grade:70
+Grade:100
 
 <div/>
 Welcome to your third assignment in the Advanced Programming course! In this assignment, you will be working with regular expressions (RegEx) and combining them with Java syntax. The assignment consists of three problems designed to help you learn and practice using regular expressions effectively.
